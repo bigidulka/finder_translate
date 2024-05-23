@@ -1,31 +1,5 @@
 {
-    "missing_files": [
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\ade\\clientmessages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\base\\workplace_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\defaults\\master\\genericsql\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\frontend\\layoutpage\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\frontend\\templateone\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\frontend\\templateone\\form\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\frontend\\templateone\\modules\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\jsp\\search\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\jsp\\userdata\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\legacy\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\report\\wrapper\\defaultreportmessages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\ui\\apps\\git\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\ui\\contextmenu\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\ui\\editors\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\ui\\editors\\messagebundle\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\widgets\\serialdate\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\demos\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\demos\\list\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\demos\\widget\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\editors\\ade\\messagesADE_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\editors\\ade\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\editors\\fckeditor\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\editors\\sitemap\\messagesSitemap_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\editors\\sitemap\\messages_ru.properties",
-        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\tools\\administration\\messages_ru.properties"
-    ],
+    "missing_files": [],
     "missing_keys": {
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\ui\\apps\\messages_ru.properties": [
             "GUI_DATABASEAPP_EXPORT_FILE_NAME_HELP_0"
@@ -38,41 +12,41 @@
             "GUI_NEWRESOURCE_LIST_COLS_SELECT_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\list\\messages_ru.properties": [
-            "GUI_EXPLORER_LIST_COLS_ICON_HELP_0",
             "GUI_LIST_ACTION_REFRESH_CONF_0",
-            "GUI_LIST_ACTION_SHOWALL_CONF_0",
-            "GUI_EXPLORER_LIST_COLS_EMPTY_0",
-            "GUI_LIST_ACTION_CSV_CONF_0",
-            "GUI_LIST_ACTION_EXPLORER_SWITCH_CONF_0",
-            "GUI_LIST_ACTION_SEARCH_CONF_0",
             "GUI_LIST_ACTION_PRINT_CONF_0",
+            "GUI_LIST_ACTION_EXPLORER_SWITCH_CONF_0",
+            "GUI_EXPLORER_LIST_COLS_SELECT_0",
             "GUI_EXPLORER_LIST_COLS_EDIT_HELP_0",
+            "GUI_EXPLORER_LIST_COLS_EMPTY_0",
+            "GUI_LIST_ACTION_SEARCH_CONF_0",
+            "GUI_LIST_ACTION_SHOWALL_CONF_0",
+            "GUI_LIST_ACTION_CSV_CONF_0",
             "GUI_EXPLORER_LIST_COLS_SELECT_HELP_0",
-            "GUI_EXPLORER_LIST_COLS_SELECT_0"
+            "GUI_EXPLORER_LIST_COLS_ICON_HELP_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\tools\\accounts\\messages_ru.properties": [
-            "GUI_USERS_TRANSFER_LIST_COLS_TRANSFER_HELP_0",
-            "GUI_GROUPS_TRANSFER_LIST_COLS_TRANSFER_HELP_0",
-            "GUI_USERS_LIST_COLS_ICON_HELP_0",
-            "GUI_GROUP_DEPENDENCIES_LIST_COLS_ICON_HELP_0",
             "GUI_ORGUNITUSERS_LIST_AVAILABLE_HELP_0",
-            "GUI_GROUPS_LIST_COLS_ICON_HELP_0"
+            "GUI_GROUPS_LIST_COLS_ICON_HELP_0",
+            "GUI_GROUPS_TRANSFER_LIST_COLS_TRANSFER_HELP_0",
+            "GUI_USERS_TRANSFER_LIST_COLS_TRANSFER_HELP_0",
+            "GUI_USERS_LIST_COLS_ICON_HELP_0",
+            "GUI_GROUP_DEPENDENCIES_LIST_COLS_ICON_HELP_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\tools\\content\\check\\messages_ru.properties": [
             "RPT_EMPTY_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\tools\\projects\\messages_ru.properties": [
+            "GUI_PROJECTS_LIST_ACTION_PUBLISH_DISABLED_CONF_0",
             "GUI_PROJECTS_LIST_COLS_ICON_0",
             "GUI_PROJECTS_LIST_COLS_ICON_HELP_0",
-            "GUI_PROJECTS_LIST_ACTION_LOCK_CONF_0",
-            "GUI_PROJECTS_LIST_ACTION_PUBLISH_DISABLED_CONF_0"
+            "GUI_PROJECTS_LIST_ACTION_LOCK_CONF_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\tools\\scheduler\\messages_ru.properties": [
             "GUI_JOBS_LIST_ACTION_EDIT_CONF_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\tools\\workplace\\broadcast\\messages_ru.properties": [
-            "GUI_SESSIONS_LIST_MACTION_MESSAGE_CONF_0",
-            "GUI_SESSIONS_LIST_MACTION_EMAIL_CONF_0"
+            "GUI_SESSIONS_LIST_MACTION_EMAIL_CONF_0",
+            "GUI_SESSIONS_LIST_MACTION_MESSAGE_CONF_0"
         ]
     }
 }
