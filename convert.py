@@ -18,11 +18,19 @@ def get_properties_files(directory):
     return properties_files
 
 def convert_unicode_escape_to_text(file_path):
-    with codecs.open(file_path, 'r', encoding='utf-8') as file:
-        content = file.read()
-        content = content.encode().decode('unicode_escape')
-    with codecs.open(file_path, 'w', encoding='utf-8') as file:
-        file.write(content)
+    with open(file_path, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+    with open(file_path, 'w', encoding='utf-8') as file:
+        for line in lines:
+            if '=' in line:
+                key, value = line.split('=', 1)
+                if any(ord(char) > 127 for char in value):  # Проверка наличия символов, не входящих в ASCII
+                    utf8_encoded = value.strip().encode('unicode_escape')
+                    file.write(f'{key}={utf8_encoded.decode("utf-8")}\n')
+                else:
+                    file.write(line)
+            else:
+                file.write(line)
 
 def main():
     ru_files = get_properties_files(ru_directory)
