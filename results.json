@@ -2,7 +2,10 @@
     "missing_files": [],
     "missing_keys": {
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\ui\\apps\\messages_ru.properties": [
-            "GUI_DATABASEAPP_EXPORT_FILE_NAME_HELP_0"
+            "GUI_RESOURCETYPE_EDIT_ID_0"
+        ],
+        "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\ui\\editors\\messages_ru.properties": [
+            "GUI_BUTTON_TOBBLE_BRACKET_AUTOCLOSE_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\commons\\messages_ru.properties": [
             "GUI_CATEGORIES_LIST_COLS_ICON_HELP_0",
@@ -12,34 +15,34 @@
             "GUI_NEWRESOURCE_LIST_COLS_SELECT_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\list\\messages_ru.properties": [
-            "GUI_LIST_ACTION_REFRESH_CONF_0",
-            "GUI_LIST_ACTION_PRINT_CONF_0",
-            "GUI_LIST_ACTION_EXPLORER_SWITCH_CONF_0",
-            "GUI_EXPLORER_LIST_COLS_SELECT_0",
-            "GUI_EXPLORER_LIST_COLS_EDIT_HELP_0",
-            "GUI_EXPLORER_LIST_COLS_EMPTY_0",
-            "GUI_LIST_ACTION_SEARCH_CONF_0",
-            "GUI_LIST_ACTION_SHOWALL_CONF_0",
             "GUI_LIST_ACTION_CSV_CONF_0",
             "GUI_EXPLORER_LIST_COLS_SELECT_HELP_0",
-            "GUI_EXPLORER_LIST_COLS_ICON_HELP_0"
+            "GUI_LIST_ACTION_EXPLORER_SWITCH_CONF_0",
+            "GUI_EXPLORER_LIST_COLS_EMPTY_0",
+            "GUI_LIST_ACTION_SHOWALL_CONF_0",
+            "GUI_EXPLORER_LIST_COLS_ICON_HELP_0",
+            "GUI_EXPLORER_LIST_COLS_SELECT_0",
+            "GUI_LIST_ACTION_REFRESH_CONF_0",
+            "GUI_LIST_ACTION_SEARCH_CONF_0",
+            "GUI_LIST_ACTION_PRINT_CONF_0",
+            "GUI_EXPLORER_LIST_COLS_EDIT_HELP_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\tools\\accounts\\messages_ru.properties": [
-            "GUI_ORGUNITUSERS_LIST_AVAILABLE_HELP_0",
             "GUI_GROUPS_LIST_COLS_ICON_HELP_0",
-            "GUI_GROUPS_TRANSFER_LIST_COLS_TRANSFER_HELP_0",
             "GUI_USERS_TRANSFER_LIST_COLS_TRANSFER_HELP_0",
+            "GUI_GROUP_DEPENDENCIES_LIST_COLS_ICON_HELP_0",
             "GUI_USERS_LIST_COLS_ICON_HELP_0",
-            "GUI_GROUP_DEPENDENCIES_LIST_COLS_ICON_HELP_0"
+            "GUI_GROUPS_TRANSFER_LIST_COLS_TRANSFER_HELP_0",
+            "GUI_ORGUNITUSERS_LIST_AVAILABLE_HELP_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\tools\\content\\check\\messages_ru.properties": [
             "RPT_EMPTY_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\tools\\projects\\messages_ru.properties": [
-            "GUI_PROJECTS_LIST_ACTION_PUBLISH_DISABLED_CONF_0",
-            "GUI_PROJECTS_LIST_COLS_ICON_0",
             "GUI_PROJECTS_LIST_COLS_ICON_HELP_0",
-            "GUI_PROJECTS_LIST_ACTION_LOCK_CONF_0"
+            "GUI_PROJECTS_LIST_ACTION_LOCK_CONF_0",
+            "GUI_PROJECTS_LIST_ACTION_PUBLISH_DISABLED_CONF_0",
+            "GUI_PROJECTS_LIST_COLS_ICON_0"
         ],
         "C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms\\workplace\\tools\\scheduler\\messages_ru.properties": [
             "GUI_JOBS_LIST_ACTION_EDIT_CONF_0"
