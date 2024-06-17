@@ -2,7 +2,7 @@ import os
 import json
 
 de_directory = 'opencms'
-ru_directory = 'org.opencms.locale.ru'
+ru_directory = 'org.opencms.locale.ru/system/workplace/locales/ru/messages/org/opencms'
 
 def get_properties_files(directory):
     properties_files = []
