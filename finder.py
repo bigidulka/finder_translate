@@ -1,8 +1,8 @@
 import os
 import json
 
-de_directory = 'C:/practice/finder_translate/org.opencms.locale.de.jar/org/opencms'
-ru_directory = 'C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms'
+de_directory = 'opencms'
+ru_directory = 'org.opencms.locale.ru'
 
 def get_properties_files(directory):
     properties_files = []
@@ -22,11 +22,11 @@ def compare_files(de_files, ru_files):
                 de_content = file.readlines()
             with open(ru_file, 'r', encoding='ISO-8859-1') as file:
                 ru_content = file.readlines()
-            de_keys = {line.split('=')[0].strip() for line in de_content if '=' in line}
+            de_dict = {line.split('=')[0].strip(): line.split('=', 1)[1].strip() for line in de_content if '=' in line}
             ru_keys = {line.split('=')[0].strip() for line in ru_content if '=' in line}
-            missing_in_ru = de_keys - ru_keys
+            missing_in_ru = {key: de_dict[key] for key in de_dict if key not in ru_keys}
             if missing_in_ru:
-                missing_keys[ru_file] = list(missing_in_ru)
+                missing_keys[ru_file] = missing_in_ru
     return missing_keys
 
 def main():

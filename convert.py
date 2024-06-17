@@ -1,11 +1,9 @@
 import os
-import codecs
 import logging
-from googletrans import Translator
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-ru_directory = 'C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms'
+ru_directory = 'hui'
 
 def get_properties_files(directory):
     properties_files = []
@@ -18,19 +16,23 @@ def get_properties_files(directory):
     return properties_files
 
 def convert_unicode_escape_to_text(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        lines = file.readlines()
-    with open(file_path, 'w', encoding='utf-8') as file:
-        for line in lines:
-            if '=' in line:
-                key, value = line.split('=', 1)
-                if any(ord(char) > 127 for char in value):  # Проверка наличия символов, не входящих в ASCII
-                    utf8_encoded = value.strip().encode('unicode_escape')
-                    file.write(f'{key}={utf8_encoded.decode("utf-8")}\n')
+    try:
+        with open(file_path, 'r', encoding='utf-8') as file:
+            lines = file.readlines()
+        
+        with open(file_path, 'w', encoding='utf-8') as file:
+            for line in lines:
+                if '=' in line:
+                    key, value = line.split('=', 1)
+                    if any(ord(char) > 127 for char in value):  # Check for non-ASCII characters
+                        utf8_encoded = value.strip().encode('unicode_escape').decode('utf-8')
+                        file.write(f'{key}={utf8_encoded}\n')
+                    else:
+                        file.write(line)
                 else:
                     file.write(line)
-            else:
-                file.write(line)
+    except Exception as e:
+        logging.error(f'Error processing file {file_path}: {e}')
 
 def main():
     ru_files = get_properties_files(ru_directory)

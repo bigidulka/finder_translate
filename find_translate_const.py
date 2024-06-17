@@ -5,7 +5,7 @@ from googletrans import Translator, LANGUAGES
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-de_directory = 'C:/practice/finder_translate/org.opencms.locale.de.jar/org/opencms'
+de_directory = 'opencms'
 ru_directory = 'C:/practice/finder_translate/org.opencms.locale.ru.jar/org/opencms'
 
 def get_properties_files(directory):

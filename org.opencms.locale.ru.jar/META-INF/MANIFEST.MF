@@ -1,5 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: Alkacon OpenCms
-Implementation-Version: 17.0
-OpenCms-Localization: ru
-
